@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="row-header">
+        <ion-icon name="newspaper-outline" size="large"></ion-icon> &nbsp;&nbsp;
+        <h1>THE OMG TIMES</h1>
+        &nbsp;&nbsp;
+        <ion-icon name="newspaper-outline" size="large"></ion-icon>
+      </div>
+      <div class="row-body">
+        <div class="column-source">
+          <b
+            ><u
+              ><p>Total articles: <span id="totalArticles"></span></p></u
+          ></b>
+          <div id="chanel"></div>
+        </div>
+        <div class="column-news">
+          <div id="newsBoard"></div>
+          <button onclick="loadMorePage()">Load more</button>
+        </div>
+      </div>
+    </div>
+    <img src="" />
+    <!-- ----- script ----- -->
+
+    <script src="index.js"></script>
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
